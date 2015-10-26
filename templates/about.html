@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
 {% block content %}
 <h1>About Anthony:</h1>
 <p>I'm from a small farm town in New York, what most consider "upstate". I have 2 brothers and 1 sister. After I graduate I'm moving to Stamford,CT.</p>
@@ -7,4 +8,8 @@
 <p>I study International Business and Computer Information Systems at Quinnipiac University. I'm a graduating Senior, looking for a job in Business Technology Consulting. Aside from school, I love to travel, work on international aide project, and swim. I'm always down for a night out, having a good time is important!</p>
 
 <p> Eventually, I want to live and work abroad for a company, for about 10 years. Primarily in Eastern Europe.</p>
+
+<div>
+  <img src="{% static 'picture/IMG_5814.jpg' %}" alt="BAR" width="300" height="400">
+</div>
 {% endblock %}
