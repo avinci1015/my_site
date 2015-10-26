@@ -24,6 +24,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                   <li><a href="{% url 'message_create' %}">Submit message</a></li>
+                  <li><a href="{% url 'about_page' %}">About me</a></li>
                 </ul>
             </div>
         </div>
@@ -31,7 +32,7 @@
     <div class="container">
         {% block content %}
         {% endblock %}
-    </div>    
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>

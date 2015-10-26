@@ -9,6 +9,9 @@ from .models import *
 class Home(TemplateView):
     template_name = "home.html"
 
+class AboutPage(TemplateView):
+    template_name = "about.html"
+
 class MessageCreateView(CreateView):
     model = Message
     template_name = "message/message_form.html"
